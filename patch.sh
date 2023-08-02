@@ -16,7 +16,7 @@ sed -i 's#ajax({url:"https://mb3admin.com/admin/service/registration/validateDev
 rm Emby.Web.*
 
 # TODO
-sed -i 's/mb3admin.com/tsumo.cf/g' $EMBY_PATH/system/dashboard-ui/embypremiere/embypremiere.js
+# sed -i 's/mb3admin.com/tsumo.cf/g' $EMBY_PATH/system/dashboard-ui/embypremiere/embypremiere.js
 
 # Delete tmp
 cd ../ && rm -rf tmp
